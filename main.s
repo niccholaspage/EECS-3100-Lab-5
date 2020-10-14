@@ -1,10 +1,10 @@
 ;*******************************************************************
 ; main.s
-; Author: ***update this***
-; Date Created: 11/18/2016
-; Last Modified: 11/18/2016
-; Section Number: ***update this***
-; Instructor: ***update this***
+; Author: Nicholas Nassar
+; Date Created: 10/13/2020
+; Last Modified: 10/13/2020
+; Section Number: 002
+; Instructor: Devinder Kaur
 ; Lab number: 5
 ; Brief description of the program
 ;   If the switch is presses, the LED toggles at 8 Hz
