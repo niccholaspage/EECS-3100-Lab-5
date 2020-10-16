@@ -87,7 +87,7 @@ InitPortE
 
 loop  
 	; you input output delay
-	BL Delay62ms ; Delay 62 ms - UPDATE ME PLZ FOR PROPER DELAY
+	BL Delay62ms ; Delay 62 ms
 	LDR R1, =GPIO_PORTE_DATA_R ; Load the address of Port E data into R1
 	LDR R0, [R1] ; Load the value at the address in R1 into R0
 	LSR R0, #1 ; Shift the register 1 bit to the right, since we only care about pin 1
