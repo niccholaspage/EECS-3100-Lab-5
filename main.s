@@ -2,7 +2,7 @@
 ; main.s
 ; Author: Nicholas Nassar
 ; Date Created: 10/13/2020
-; Last Modified: 10/13/2020
+; Last Modified: 10/15/2020
 ; Section Number: 002
 ; Instructor: Devinder Kaur
 ; Lab number: 5
@@ -63,17 +63,17 @@ InitPortE
 	LDR R1, =GPIO_PORTE_PCTL_R
 	STR R0, [R1]
 
-	; GPIO_PORTF_DIR_R = 0x01
+	; GPIO_PORTE_DIR_R = 0x01
 	MOV R0, #0x01
 	LDR R1, =GPIO_PORTE_DIR_R
 	STR R0, [R1]
 
-	; GPIO_PORTF_AFSEL_R = 0x00
+	; GPIO_PORTE_AFSEL_R = 0x00
 	MOV R0, #0x00
 	LDR R1, =GPIO_PORTE_AFSEL_R
 	STR R0, [R1]
 
-	; GPIO_PORTF_DEN_R = 0x03
+	; GPIO_PORTE_DEN_R = 0x03
 	MOV R0, #0x03
 	LDR R1, =GPIO_PORTE_DEN_R
 	STR R0, [R1]
